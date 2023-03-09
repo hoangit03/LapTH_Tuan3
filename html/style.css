@@ -1,0 +1,118 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 1445px;
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#heder{
+    height: 60px;
+    background-color: aqua;
+    width: 100%;
+    align-items: center;
+}
+#heder{
+    display: flex;
+    justify-content: space-around;
+}
+#heder_left{
+    display: flex;
+    justify-content: space-around;
+}
+
+#anhnen{
+    height: 390px;
+    background: url('/img/banh.png') no-repeat ;
+    background-size: 100%;
+    width: 100%;
+    position: relative;
+}
+#anhnen_text{
+    position: absolute;
+    font-size: 19px;
+    margin-left: 129px;
+    margin-top: 50px;
+    width: 355px;
+}
+#menu{
+    height: 175px;
+    background-color: aquamarine;
+    width: 1175px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu_left{
+    display: flex;
+}
+#menu_right{
+    display: flex;
+}
+#content{
+    height: 175px;
+    background-color: rgb(61, 189, 147);
+    width: 1175px;
+}
+#foot{
+    height: 435px;
+    background-color: rgb(2, 8, 28);
+    width: 100%;
+}
+
+
+
+
+/* #box {
+    width: 100%;
+}
+#heder {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#anhtieude {
+    display: flex;
+    height: 390px;
+    background-size: 100%;
+    background-image: url('/img/banh.png');
+    background-repeat: no-repeat;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+#menu {
+    width: 1180px;
+    display: flex;
+    height: 145px;
+    justify-content: space-between;
+}
+
+#centent {
+    display: flex;
+    height: 1790px;
+}
+
+#foot {
+    display: flex;
+    height: 435px;
+    background-color: #01011c;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-around;
+    width: 306px;
+    align-items: center;
+}
+
+#angtieude_noidung {
+    width: 280px;
+    position: absolute;
+    left: 135px;
+    top: 110px;
+} */

@@ -6,93 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {}
         
-        #box {
-            width: 100%;
-        }
-        
-        #heder {
-            display: flex;
-            height: 60px;
-            justify-content: space-around;
-            align-items: center;
-        }
-        
-        #anhtieude {
-            display: flex;
-            height: 390px;
-            background-size: 100%;
-            background-image: url('/img/banh.png');
-            background-repeat: no-repeat;
-        }
-        
-        #menu {
-            display: flex;
-            height: 145px;
-        }
-        
-        #centent {
-            display: flex;
-            height: 1790px;
-        }
-        
-        #foot {
-            display: flex;
-            height: 435px;
-            background-color: #01011c;
-        }
-        
-        .shop {
-            display: flex;
-            justify-content: space-around;
-            width: 306px;
-            align-items: center;
-        }
-        
-        #angtieude_noidung {
-            width: 280px;
-            position: absolute;
-            left: 135px;
-            top: 110px;
-        }
     </style>
 </head>
 
 <body>
-    <div id="box">
+    <div class="product">
+
         <div id="heder">
-            <div class="shop" id="heder2">
-                <div>Shop</div>
-                <div>Offers</div>
-                <div>Our story</div>
-                <div>Blog</div>
+            <div id="heder_left">
+                <p>Shop</p>
+                <p>Offers</p>
+                <p>Our story</p>
+                <p>Blog</p>
             </div>
-            <div class="shop">
+            <div id="heder_center">
                 <img src="/img/logo.png" alt="">
             </div>
-            <div class="shop">
-                <div>
-                    <input type="text" name="timkien" id="timkiem" placeholder="Search product...">
-                </div>
-                <div>
-                    <img src="/img/Cart.png" alt="">
-                </div>
-                <div>
-                    <img src="/img/Nguoikhach.png" alt="">
+            <div id="heder_right">
+                <input type="text" name="search_product" id="search_product" placeholder="Search product...">
+                <img src="/img/Cart.png" alt="">
+                <img src="/img/Nguoikhach.png" alt="">
+            </div>
+        </div>
+        <div id="anhnen" >
+            <div id="anhnen_text">
+                <h1 style="font-size: 45px;">Gift for your skin</h1>
+                <p>Aliquip fugiat ipsum nostrud ex et incididunt quis minim dolore excepteur volupptete</p>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="menu_left">
+                <div>All Produst</div>
+                <div>Face</div>
+                <div>Body</div>
+            </div>
+            <div id="menu_right">
+                <div><input type="text" name="search_product" id="search_product" placeholder="Search product..."></div>
+                <div id="sortby">
+                    <label for="sortby">Sort by</label>
+                    <select name="sortby" id="sortby">
+                        <option value=""></option>
+                    </select>
                 </div>
             </div>
         </div>
-        <div id="anhtieude">
-            <div id="angtieude_noidung">
-                <h1>Gift for your skin</h1>
-                <p>Aliquip fugiat ipsum nostru ex et ed incididunt quis minim dolore excepteur voluptate</p>
-            </div>
-        </div>
-        <div id="menu">u</div>
-        <div id="centent">Centent</div>
-        <div id="foot">foot</div>
+        <div id="content" >Content</div>
+        <div id="foot">Foot</div>
+
     </div>
 </body>
 
