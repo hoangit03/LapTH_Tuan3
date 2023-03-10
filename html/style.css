@@ -10,7 +10,7 @@ body{
 }
 #heder{
     height: 60px;
-    background-color: aqua;
+    background-color: rgba(245, 245, 245,0.2);
     width: 100%;
     align-items: center;
 }
@@ -19,10 +19,42 @@ body{
     justify-content: space-around;
 }
 #heder_left{
+    width: 300px;
     display: flex;
     justify-content: space-around;
 }
-
+#heder_left p{
+    width: 80px;
+    text-align: center;
+}
+#heder_left p:hover{
+    font-weight: bold;
+}
+#heder_right{
+    display: flex;
+    justify-content: space-around;
+}
+#search_heder1{
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+#heder_right input{
+    height: 40px;
+    border: none;
+    outline: none !important;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#search_heder1 label{
+    margin-left: 10px;
+    margin-right: 8px;
+}
+#search_heder1:hover{
+    background-color: black;
+    color: white;
+    border-color:black;
+    transition: 1.5s;
+}
 #anhnen{
     height: 390px;
     background: url('/img/banh.png') no-repeat ;
@@ -39,17 +71,83 @@ body{
 }
 #menu{
     height: 175px;
-    background-color: aquamarine;
     width: 1175px;
     display: flex;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #menu_left{
+    width: 500px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu_left_thanhdoc::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    border-left: 1px solid rgba(0, 128, 0,0.8);
+    top: 50%;
+    height: 25px;
+    transform: translateY(-50%);
+}
+#menu_left div {
+    width: 180px;
+    height: 55px;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    position: relative;
+}
+#menu_right div{
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+}
+
+#menu_left div:hover {
+    border: none;
+    background-color: rgba(0, 128, 0,0.8);
+    color: white;
+    transition: 1s;
 }
 #menu_right{
     display: flex;
+    align-items: center;
 }
+
+.menu_search{
+    display: flex;
+}
+
+.menu_search label{
+    margin-top: 15px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 20px
+}
+
+.menu_search input{
+    width: 140px;
+    border: none;
+    outline: none !important;
+    border-bottom: 1px solid gray;
+}
+.menu_search:hover{
+    box-shadow: 0 0 5px 2px green, 1px 0 2px blueviolet;
+    
+    transition: 1.5s;
+}
+.menu_search input:hover{
+    border: none;
+}
+
+
+
+
 #content{
     height: 175px;
     background-color: rgb(61, 189, 147);

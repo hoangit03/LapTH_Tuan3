@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7f22e0ee9.js" crossorigin="anonymous"></script>
     <style>
         
     </style>
@@ -26,9 +27,14 @@
                 <img src="/img/logo.png" alt="">
             </div>
             <div id="heder_right">
-                <input type="text" name="search_product" id="search_product" placeholder="Search product...">
-                <img src="/img/Cart.png" alt="">
-                <img src="/img/Nguoikhach.png" alt="">
+                <div id="search_heder1">
+                    <label for="search_heder">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input type="text" name="search_heder" id="search_heder" placeholder="Search product...">
+                </div>
+                <div><img src="/img/Cart.png" alt=""></div>
+                <div><img src="/img/Nguoikhach.png" alt=""></div>
             </div>
         </div>
         <div id="anhnen" >
@@ -38,18 +44,31 @@
             </div>
         </div>
         <div id="menu">
-            <div id="menu_left">
-                <div>All Produst</div>
-                <div>Face</div>
-                <div>Body</div>
+            <div id="menu_left" class="menu_size">
+                <div>
+                    <p>All Produst</p>
+                </div>
+                <div class="menu_left_thanhdoc">
+                    <p>Face</p>
+                </div>
+                <div class="menu_left_thanhdoc">
+                    <p>Body</p>
+                </div>
             </div>
-            <div id="menu_right">
-                <div><input type="text" name="search_product" id="search_product" placeholder="Search product..."></div>
+            <div id="menu_right" class="menu_size">
+                <div class="menu_search">
+                    <label for="search_menu">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input type="text" name="search_menu" id="search_menu" placeholder="Search product...">
+                </div>
                 <div id="sortby">
-                    <label for="sortby">Sort by</label>
-                    <select name="sortby" id="sortby">
-                        <option value=""></option>
-                    </select>
+                    <p>
+                        <label for="sortby">Sort by</label>
+                        <select name="sortby" id="sortby">
+                            <option value=""></option>
+                        </select>
+                    </p>
                 </div>
             </div>
         </div>
