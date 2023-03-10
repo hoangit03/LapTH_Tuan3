@@ -146,12 +146,70 @@ body{
 }
 
 
-
-
 #content{
-    height: 175px;
     background-color: rgb(61, 189, 147);
     width: 1175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#content div{
+    width: 270px;
+    height: 485px;
+    position: relative;
+}
+.product_position {
+    position: absolute;
+    right: 0;
+    border: 1px solid orange;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+#product_1 div:first-child{
+    background: url('/img/image1.png') no-repeat;
+    background-size: 100%;
+}
+#product_2 div:first-child{
+    background: url('/img/image2.png') no-repeat;
+    background-size: 100%;
+}
+#product_3 div:first-child{
+    background: url('/img/image3.png') no-repeat;
+    background-size: 100%;
+}
+#product_4 div:first-child{
+    background: url('/img/image4.png') no-repeat;
+    background-size: 100%;
+}
+#product_5 div:first-child{
+    background: url('/img/image5.png') no-repeat;
+    background-size: 100%;
+}
+#product_6 div:first-child{
+    background: url('/img/image6.png') no-repeat;
+    background-size: 100%;
+}#product_7 div:first-child{
+    background: url('/img/image7.png') no-repeat;
+    background-size: 100%;
+}#product_8 div:first-child{
+    background: url('/img/image8.png') no-repeat;
+    background-size: 100%;
+}#product_9 div:first-child{
+    background: url('/img/image9.png') no-repeat;
+    background-size: 100%;
+}#product_10 div:first-child{
+    background: url('/img/image10.png') no-repeat;
+    background-size: 100%;
+}#product_11 div:first-child{
+    background: url('/img/image11.png') no-repeat;
+    background-size: 100%;
+}#product_12 div:first-child{
+    background: url('/img/image12.png') no-repeat;
+    background-size: 100%;
 }
 #foot{
     height: 435px;
