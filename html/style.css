@@ -155,62 +155,101 @@ body{
 }
 #foot{
     height: 435px;
-    background-color: rgb(2, 8, 28);
+    background-color: #21262d;
     width: 100%;
-}
-
-
-
-
-/* #box {
-    width: 100%;
-}
-#heder {
+    color: white;
     display: flex;
-    height: 60px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#foot_left{
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 500px;
 }
-
-#anhtieude {
-    display: flex;
-    height: 390px;
-    background-size: 100%;
-    background-image: url('/img/banh.png');
-    background-repeat: no-repeat;
+#foot_left div{
+    height: 250px;
+    width: 150px;
 }
-.menu{
-    display: flex;
-    justify-content: space-around;
+#left_foot a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#menu {
-    width: 1180px;
+#left_foot select{
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #21262d;
+    color: white;
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#foor_right{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#foot_subscribe{
     display: flex;
-    height: 145px;
+    width: 430px;
+    height: 50px;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+#foot_subscribe label{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 13px;
+}
+#foot_subscribe input{
+    width: 255px;
+    outline: none !important;
+    background-color:  #21262d;
+    color: white;
+    font-size: 18.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+#foot_subscribe button{
+    width: 125px;
+    background-color: rgba(8, 196, 143, 0.5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 20px;
+    outline: none !important;
+}
+#right_foot #icon{
+    height: 90px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    width: 128px;
+    font-size: 25px;
+}
+#icon a:first-child{
+    color: rgb(62, 156, 219);
+}
+#icon a:nth-child(2){
+    color: rgb(34, 34, 238);
+}
+#icon a:nth-child(3){
+    color: rgba(43, 43, 174, 0.872);
+}
+#icon a:last-child{
+    color: rgb(241, 50, 50);
 }
 
-#centent {
-    display: flex;
-    height: 1790px;
-}
-
-#foot {
-    display: flex;
-    height: 435px;
-    background-color: #01011c;
-}
-
-.shop {
+ul {
+    padding: 0;
+    width: 340px;
+    position: relative;
     display: flex;
     justify-content: space-around;
-    width: 306px;
-    align-items: center;
 }
 
-#angtieude_noidung {
-    width: 280px;
-    position: absolute;
-    left: 135px;
-    top: 110px;
-} */
