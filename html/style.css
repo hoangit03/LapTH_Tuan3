@@ -144,7 +144,22 @@ body{
 .menu_search input:hover{
     border: none;
 }
-
+#sortby_div p{
+    width: 135px;
+    height: 50px;
+    float: right;
+    background-color: rgba(220, 220, 220,0.5);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+#sortby_div select{
+    border: none;
+    background-color: rgba(220, 220, 220,0);
+}
 
 #content{
     width: 1175px;
@@ -156,9 +171,6 @@ body{
 #content .div_product{
     width: 270px;
     height: 485px;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px whitesmoke;
     margin-bottom: 70px;
 }
 .div_product .img{
@@ -282,6 +294,52 @@ body{
 }
 .Product_title_bottom h1{
     font-size: 35px;
+}
+#thanh_truyen{
+    width: 100%;
+    display: flex;
+    height: 128px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-40px);
+}
+#thanh_truyen_center{
+    width: 275px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#thanh_truyen_center::after{
+    content: "";
+    background: url('/img/Phai.png') no-repeat;
+    color: gray;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-4px);
+}
+#thanh_truyen_center::before{
+    content: "";
+    background: url('/img/Trai.png') no-repeat;
+    color: gray;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-4px);
+    border-radius: 50%;
+}
+
+#thanh_truyen_center div{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% ;
+    color: gray;
+}
+#thanh_truyen_center div:hover{
+    background-color: rgba(210, 237, 211,0.5);
+    color: rgb(18, 117, 18);
 }
 #foot{
     height: 435px;
